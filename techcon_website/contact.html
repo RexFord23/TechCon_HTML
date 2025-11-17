@@ -9,6 +9,16 @@
 
 <header>
     <h1>Contact Us</h1>
+
+    <!-- Required nav -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
@@ -25,4 +35,38 @@
     <section>
         <h2>Our Location</h2>
 
-        <!--
+        <iframe 
+            src="https://www.google.com/maps" 
+            width="400" 
+            height="300" 
+            style="border:0;" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <section>
+        <h2>Send Us a Message</h2>
+
+        <form action="#" method="POST">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
